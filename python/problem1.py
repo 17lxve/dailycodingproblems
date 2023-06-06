@@ -36,4 +36,5 @@ def test():
     print(addup_once([10, 15, 3, 7],20))
     print(addup_once_avoid_duplication([10, 15, 3, 7],20))
 
-test()
+if __name__ == '__main__':
+    test()
