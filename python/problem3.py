@@ -19,7 +19,8 @@ def deserialize(s:str) -> Node:
 
 def test() -> None:
     node = Node('root', Node('left', Node('left.left')), Node('right'))
-    assert deserialize(serialize(node)).left.left.val == 'left.left', "Wrong"
+    assert deserialize(serialize(node)).left.left.val == 'left.left', "Test 1 failed"
+    print("All tests passed!")
 
 if __name__ == '__main__':
     test()

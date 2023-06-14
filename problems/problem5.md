@@ -1,5 +1,7 @@
 # Daily Coding Problem 5
 
+## \[Medium\]
+
 Good morning! Here's your coding interview problem for today.
 
 This problem was asked by Jane Street.
